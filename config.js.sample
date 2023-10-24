@@ -1,0 +1,9 @@
+configvar config = {
+  snowflake_account: 'LOCATOR.REGION',
+  snowflake_user: 'user',
+  snowflake_private_key: `-----BEGIN RSA PRIVATE KEY-----
+<single line>
+-----END RSA PRIVATE KEY-----`,
+  pool_max: 200
+}
+module.exports = config;
