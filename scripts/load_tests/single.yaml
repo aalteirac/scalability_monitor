@@ -1,0 +1,14 @@
+config:
+  target: 'http://localhost:3000'
+  timeout: 20
+  phases:
+    - duration: 20
+      arrivalRate: 1
+      maxVusers: 1
+      name: "Warm up"
+scenarios:
+  - flow:
+    - get:
+        url: "/trips/pageall?random=true"   
+    - get:
+        url: "/trips/monthly?random=true"           

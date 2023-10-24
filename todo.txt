@@ -1,0 +1,10 @@
+OK Live query view in the app:
+    - queued
+    - Running
+
+
+OK Set WH size and multicluster from the app    
+OK run artillery script
+- Suspend WH button
+OK stop autorefresh when no running no queue
+- smart sizing

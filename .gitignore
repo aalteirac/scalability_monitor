@@ -1,0 +1,13 @@
+/.DS_Store
+/node_modules
+/package-lock.json
+/store.js
+/.vscode
+/dist 
+/.env
+/*.csv
+*.map
+*.pem
+default.json
+config.js
+snowflake.log
